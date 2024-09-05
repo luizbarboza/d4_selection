@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Append Test</title>
+    <link rel="x-dart-test" href="append_test.dart" />
+    <script src="packages/test/dart.js"></script>
+    <script>
+      var pass = 0;
+      const createElement = document.createElement;
+
+      document.createElement = function () {
+        console.log(arguments);
+        ++pass;
+        return createElement.apply(this, arguments);
+      };
+    </script>
+  </head>
+  <body></body>
+</html>

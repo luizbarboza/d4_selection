@@ -1,0 +1,1 @@
+For interaction, selections allow listening for and dispatching of events.

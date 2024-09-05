@@ -1,0 +1,17 @@
+dartdoc:
+  categories:
+    "Selecting elements":
+      markdown: doc/selecting.md
+    "Modifying elements":
+      markdown: doc/modifying.md
+    "Joining data":
+      markdown: doc/joining.md
+    "Handling events":
+      markdown: doc/events.md
+    "Control flow":
+      markdown: doc/control_flow.md
+    "Local variables":
+      markdown: doc/locals.md
+    "Namespaces":
+      markdown: doc/namespaces.md
+  categoryOrder: ["Selecting elements", "Modifying elements", "Joining data", "Handling events", "Control flow", "Local variables", "Namespaces"]
