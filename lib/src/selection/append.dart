@@ -7,7 +7,7 @@ extension SelectionAppend on Selection {
   /// following sibling in the update selection if this is an
   /// [enter selection][].
   ///
-  /// [enter selection]: /d4_selection/SelectionEnter/enter.html
+  /// [enter selection]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionEnter/enter.html
   ///
   /// The latter behavior for enter selections allows you to insert elements
   /// into the DOM in an order consistent with the new bound data; however, note
@@ -15,7 +15,7 @@ extension SelectionAppend on Selection {
   /// change order (*i.e.*, if the order of new data is inconsistent with old
   /// data).
   ///
-  /// [*selection*.order]: /d4_selection/SelectionOrder/order.html
+  /// [*selection*.order]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionOrder/order.html
   ///
   /// If the specified *type* is a function, it is evaluated for each selected
   /// element, in order, being passed the current datum (*d*), the current index
@@ -53,7 +53,7 @@ extension SelectionAppend on Selection {
   /// elements. Each new element inherits the data of the current elements, if
   /// any, in the same manner as [*selection*.select][].
   ///
-  /// [*selection*.select]: /d4_selection/SelectionSelect/select.html
+  /// [*selection*.select]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelect/select.html
   ///
   /// The specified *name* may have a namespace prefix, such as `svg:text` to
   /// specify a `text` attribute in the SVG namespace. See [namespaces][] for
@@ -63,7 +63,7 @@ extension SelectionAppend on Selection {
   /// prefixes, the corresponding namespace will be used (for example, `svg`
   /// implies `svg:svg`).
   ///
-  /// [namespaces]: /d4_selection/namespaces.html
+  /// [namespaces]: https://pub.dev/documentation/d4_selection/latest/d4_selection/namespaces.html
   Selection append(Union2<EachCallback<Element>, String> type) {
     var create = type.split((create) => create, (type) => g.creator(type));
 

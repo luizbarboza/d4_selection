@@ -6,16 +6,16 @@
 /// selections, you can also [add][] or [remove][] elements to correspond to
 /// data.
 ///
-/// [attributes]: /d4_selection/SelectionAttr/attrSet.html
-/// [styles]: /d4_selection/SelectionStyle/styleSet.html
-/// [properties]: /d4_selection/SelectionProperty/propertySet.html
-/// [HTML]: /d4_selection/SelectionHtml/htmlSet.html
-/// [text]: /d4_selection/SelectionText/textSet.html
-/// [data join]: /topics/Joining%20data-topic.html
-/// [enter]: /d4_selection/SelectionEnter/enter.html
-/// [exit]: /d4_selection/SelectionExit/exit.html
-/// [add]: /d4_selection/SelectionAppend/append.html
-/// [remove]: /d4_selection/SelectionRemove/remove.html
+/// [attributes]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionAttr/attrSet.html
+/// [styles]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionStyle/styleSet.html
+/// [properties]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionProperty/propertySet.html
+/// [HTML]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionHtml/htmlSet.html
+/// [text]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionText/textSet.html
+/// [data join]: https://pub.dev/documentation/d4_selection/latest/topics/Joining%20data-topic.html
+/// [enter]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionEnter/enter.html
+/// [exit]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionExit/exit.html
+/// [add]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionAppend/append.html
+/// [remove]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionRemove/remove.html
 ///
 /// See one of:
 ///
@@ -27,13 +27,13 @@
 /// * [Local variables][] - attaching state to elements.
 /// * [Namespaces][] - dealing with XML namespaces.
 ///
-/// [Selecting elements]: /topics/Selecting%20elements-topic.html
-/// [Modifying elements]: /topics/Modifying%20elements-topic.html
-/// [Joining data]: /topics/Joining%20data-topic.html
-/// [Handling events]: /topics/Handling%20eventstopic.html
-/// [Control flow]: /topics/Control%20flow-topic.html
-/// [Local variables]: /topics/Local%20variables-topic.html
-/// [Namespaces]: /topics/Namespaces-topic.html
+/// [Selecting elements]: https://pub.dev/documentation/d4_selection/latest/topics/Selecting%20elements-topic.html
+/// [Modifying elements]: https://pub.dev/documentation/d4_selection/latest/topics/Modifying%20elements-topic.html
+/// [Joining data]: https://pub.dev/documentation/d4_selection/latest/topics/Joining%20data-topic.html
+/// [Handling events]: https://pub.dev/documentation/d4_selection/latest/topics/Handling%20eventstopic.html
+/// [Control flow]: https://pub.dev/documentation/d4_selection/latest/topics/Control%20flow-topic.html
+/// [Local variables]: https://pub.dev/documentation/d4_selection/latest/topics/Local%20variables-topic.html
+/// [Namespaces]: https://pub.dev/documentation/d4_selection/latest/topics/Namespaces-topic.html
 library;
 
 export 'src/d4_selection.dart';

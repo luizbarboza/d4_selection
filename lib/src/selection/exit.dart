@@ -6,7 +6,7 @@ extension SelectionExit on Selection {
   /// which no new datum was found. (The exit selection is empty for selections
   /// not returned by [*selection*.dataBind][].)
   ///
-  /// [*selection*.dataBind]: /d4_selection/SelectionData/dataBind.html
+  /// [*selection*.dataBind]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionData/dataBind.html
   ///
   /// The exit selection is typically used to remove “superfluous” elements
   /// corresponding to old data. For example, to update the DIV elements created
@@ -59,7 +59,7 @@ extension SelectionExit on Selection {
   /// the elements in the DOM. See the [general update pattern][] notebook for
   /// more on data joins.
   ///
-  /// [*selection*.order]: /d4_selection/SelectionOrder/order.html
+  /// [*selection*.order]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionOrder/order.html
   /// [general update pattern]: https://observablehq.com/@d3/general-update-pattern
   ///
   /// {@category Joining data}

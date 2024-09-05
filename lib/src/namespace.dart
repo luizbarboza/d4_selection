@@ -15,7 +15,7 @@ import 'namespaces.dart';
 /// describing the full namespace URL and the local name. If the name does not
 /// contain a colon, this function merely returns the input name.
 ///
-/// [d4.namespaces]: /d4_selection/namespaces.html
+/// [d4.namespaces]: https://pub.dev/documentation/d4_selection/latest/d4_selection/namespaces.html
 ///
 /// {@category Namespaces}
 Union2<Map<String, String>, String> namespace(String name) {

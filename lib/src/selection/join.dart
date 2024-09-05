@@ -6,8 +6,8 @@ extension SelectionJoin on Selection {
   /// was previously bound by [*selection*.dataBind][], returning the [merged][]
   /// enter and update selection.
   ///
-  /// [*selection*.dataBind]: /d4_selection/SelectionData/dataBind.html
-  /// [merged]: /d4_selection/SelectionMerge/merge.html
+  /// [*selection*.dataBind]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionData/dataBind.html
+  /// [merged]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionMerge/merge.html
   ///
   /// This method is a convenient alternative to the explicit
   /// [general update pattern][], replacing [*selection*.enter][],
@@ -15,11 +15,11 @@ extension SelectionJoin on Selection {
   /// [*selection*.order][]. For example:
   ///
   /// [general update pattern]: https://observablehq.com/@d3/general-update-pattern
-  /// [*selection*.enter]: /d4_selection/SelectionEnter/enter.html
-  /// [*selection*.exit]: /d4_selection/SelectionExit/exit.html
-  /// [*selection*.append]: /d4_selection/SelectionAppend/append.html
-  /// [*selection*.remove]: /d4_selection/SelectionRemove/remove.html
-  /// [*selection*.order]: /d4_selection/SelectionOrder/order.html
+  /// [*selection*.enter]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionEnter/enter.html
+  /// [*selection*.exit]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionExit/exit.html
+  /// [*selection*.append]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionAppend/append.html
+  /// [*selection*.remove]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionRemove/remove.html
+  /// [*selection*.order]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionOrder/order.html
   ///
   /// ```dart
   /// svg
@@ -36,8 +36,8 @@ extension SelectionJoin on Selection {
   /// default to the identity function and calling [*selection*.remove][],
   /// respectively. The shorthand above is thus equivalent to:
   ///
-  /// [*selection*.append]: /d4_selection/SelectionAppend/append.html
-  /// [*selection*.remove]: /d4_selection/SelectionRemove/remove.html
+  /// [*selection*.append]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionAppend/append.html
+  /// [*selection*.remove]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionRemove/remove.html
   ///
   /// ```dart
   /// svg
@@ -58,7 +58,7 @@ extension SelectionJoin on Selection {
   /// performance. For example, to set different fill colors for enter and
   /// update:
   ///
-  /// [*selection*.dataBind]: /d4_selection/SelectionData/dataBind.html
+  /// [*selection*.dataBind]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionData/dataBind.html
   ///
   /// ```dart
   /// svg

@@ -22,7 +22,7 @@ extension SelectionSelectAll on Selection {
   /// data from this selection; use [*selection*.dataBind][] to propagate data
   /// to children.
   ///
-  /// [*selection*.dataBind]: /d4_selection/SelectionData/dataBind.html
+  /// [*selection*.dataBind]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionData/dataBind.html
   ///
   /// If the *selector* is a function, it is evaluated for each selected
   /// element, in order, being passed the current datum (*d*), the current index
@@ -46,8 +46,8 @@ extension SelectionSelectAll on Selection {
   /// [data join][]. See [Nested Selections][] and [How Selections Work][] for
   /// more on this topic.
   ///
-  /// [*selection*.select]: /d4_selection/SelectionSelect/select.html
-  /// [data join]: /topics/Joining%20data-topic.html
+  /// [*selection*.select]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelect/select.html
+  /// [data join]: https://pub.dev/documentation/d4_selection/latest/topics/Joining%20data-topic.html
   /// [Nested Selections]: http://bost.ocks.org/mike/nest/
   /// [How Selections Work]: http://bost.ocks.org/mike/selection/
   Selection selectAll(

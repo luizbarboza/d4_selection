@@ -64,7 +64,7 @@ extension SelectionAttr on Selection {
   /// [namespaces][] for the map of supported
   /// namespaces; additional namespaces can be registered by adding to the map.
   ///
-  /// [namespaces]: /d4_selection/namespaces.html
+  /// [namespaces]: https://pub.dev/documentation/d4_selection/latest/d4_selection/namespaces.html
   String? attrGet(String name) {
     var fullname = g.namespace(name);
 

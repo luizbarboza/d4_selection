@@ -4,12 +4,12 @@ A *selection* is a set of elements from the DOM. Typically these elements are id
 
 Selection methods come in two forms, **select** and **selectAll**: the former selects only the first matching element, while the latter selects all matching elements in document order. The top-level selection methods, [d4.select][] and [d4.selectAll][], query the entire document; the subselection methods, [*selection*.select][] and [*selection*.selectAll][], restrict selection to descendants of the selected elements. There is also [*selection*.selectChild][] and [*selection*.selectChildren][] for direct children.
 
-[d4.select]: /d4_selection/select.html
-[d4.selectAll]: /d4_selection/selectAll.html
-[*selection*.select]: /d4_selection/SelectionSelect/select.html
-[*selection*.selectAll]: /d4_selection/SelectionSelectAll/selectAll.html
-[*selection*.selectChild]: /d4_selection/SelectionChild/selectChild.html
-[*selection*.selectChildren]: /d4_selection/SelectionChildren/selectChildren.html
+[d4.select]: https://pub.dev/documentation/d4_selection/latest/d4_selection/select.html
+[d4.selectAll]: https://pub.dev/documentation/d4_selection/latest/d4_selection/selectAll.html
+[*selection*.select]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelect/select.html
+[*selection*.selectAll]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelectAll/selectAll.html
+[*selection*.selectChild]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionChild/selectChild.html
+[*selection*.selectChildren]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionChildren/selectChildren.html
 
 ```dart
 d4

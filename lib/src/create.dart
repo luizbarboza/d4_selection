@@ -25,7 +25,7 @@ import 'selection/selection.dart';
 /// explicitly when creating SVG or other non-HTML elements; see [namespace][]
 /// for details on supported namespace prefixes.
 ///
-/// [namespace]: /d4_selection/namespace.html
+/// [namespace]: https://pub.dev/documentation/d4_selection/latest/d4_selection/namespace.html
 ///
 /// {@category Modifying elements}
 Selection create(String name) {

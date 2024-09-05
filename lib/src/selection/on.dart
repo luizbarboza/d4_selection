@@ -148,7 +148,7 @@ extension SelectionOn on Selection {
   ///
   /// [*event*.pageX]: https://developer.mozilla.org/en/DOM/event.pageX
   /// [*event*.pageY]: https://developer.mozilla.org/en/DOM/event.pageY
-  /// [d4.pointer]: /d4_selection/pointer.html
+  /// [d4.pointer]: https://pub.dev/documentation/d4_selection/latest/d4_selection/pointer.html
   ///
   /// If an event listener was previously registered for the same *typename* on
   /// a selected element, the old listener is removed before the new listener is

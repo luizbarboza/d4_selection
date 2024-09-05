@@ -15,7 +15,7 @@ extension SelectionFilter on Selection {
   /// This is approximately equivalent to using [d4.selectAll][] directly,
   /// although the indexes may be different:
   ///
-  /// [d4.selectAll]: /d4_selection/selectAll.html
+  /// [d4.selectAll]: https://pub.dev/documentation/d4_selection/latest/d4_selection/selectAll.html
   ///
   /// ```dart
   /// final even = d4.selectAll("tr:nth-child(even)".u31);
@@ -37,7 +37,7 @@ extension SelectionFilter on Selection {
   ///
   /// Or using [*selection*.select][]:
   ///
-  /// [*selection*.select]: /d4_selection/SelectionSelect/select.html
+  /// [*selection*.select]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelect/select.html
   ///
   /// ```dart
   /// final even = d4.selectAll("tr".u31).select(
@@ -58,7 +58,7 @@ extension SelectionFilter on Selection {
   /// needed.
   ///
   /// [*array*.filter]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-  /// [*selection*.select]: /d4_selection/SelectionSelect/select.html
+  /// [*selection*.select]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelect/select.html
   Selection filter(Union2<EachCallback<bool>, String> filter) {
     var match = filter.split(
       (filter) => filter,

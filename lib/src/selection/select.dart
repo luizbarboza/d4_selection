@@ -38,8 +38,8 @@ extension SelectionSelect on Selection {
   /// role in the [data join][]. See [Nested Selections][] and
   /// [How Selections Work][] for more on this topic.
   ///
-  /// [*selection*.selectAll]: /d4_selection/SelectionSelectAll/selectAll.html
-  /// [data join]: /topics/Joining%20data-topic.html
+  /// [*selection*.selectAll]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelectAll/selectAll.html
+  /// [data join]: https://pub.dev/documentation/d4_selection/latest/topics/Joining%20data-topic.html
   /// [Nested Selections]: http://bost.ocks.org/mike/nest/
   /// [How Selections Work]: http://bost.ocks.org/mike/selection/
   ///

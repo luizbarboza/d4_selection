@@ -57,8 +57,8 @@ extension SelectionHtml on Selection {
   /// subtree to text. See also the [innersvg polyfill][], which provides a shim
   /// to support the innerHTML property on SVG elements.
   ///
-  /// [*selection*.append]: /d4_selection/SelectionAppend/append.html
-  /// [*selection*.insert]: /d4_selection/SelectionInsert/insert.html
+  /// [*selection*.append]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionAppend/append.html
+  /// [*selection*.insert]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionInsert/insert.html
   /// [XMLSerializer]: https://developer.mozilla.org/en-US/docs/XMLSerializer
   /// [innersvg polyfill]: https://code.google.com/p/innersvg/
   Selection htmlSet(Union2<EachCallback<String?>, String>? value) {

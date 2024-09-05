@@ -14,7 +14,7 @@ List<Element?> _empty(_, [__, ___, ____]) {
 /// This method is used internally by [*selection*.selectAll][]. For example,
 /// this:
 ///
-/// [*selection*.selectAll]: /d4_selection/SelectionSelectAll/selectAll.html
+/// [*selection*.selectAll]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelectAll/selectAll.html
 ///
 /// ```dart
 /// final div = selection.selectAll("div".u22);

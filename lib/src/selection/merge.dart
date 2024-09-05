@@ -17,11 +17,11 @@ extension SelectionMerge on Selection {
   /// you should use operations that preserve index, such as
   /// [*selection*.select][] instead of [*selection*.filter][]. For example:
   ///
-  /// [*selection*.joind]: /d4_selection/SelectionJoin/joind.html
-  /// [enter]: /d4_selection/SelectionEnter/enter.html
-  /// [update]: /d4_selection/SelectionData/dataBind.html
-  /// [*selection*.select]: /d4_selection/SelectionSelect/select.html
-  /// [*selection*.filter]: /d4_selection/SelectionFilter/filter.html
+  /// [*selection*.joind]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionJoin/joind.html
+  /// [enter]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionEnter/enter.html
+  /// [update]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionData/dataBind.html
+  /// [*selection*.select]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelect/select.html
+  /// [*selection*.filter]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionFilter/filter.html
   ///
   /// ```dart
   /// final odd = selection
@@ -37,7 +37,7 @@ extension SelectionMerge on Selection {
   ///
   /// See [*selection*.dataBind][] for more.
   ///
-  /// [*selection*.dataBind]: /d4_selection/SelectionData/dataBind.html
+  /// [*selection*.dataBind]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionData/dataBind.html
   ///
   /// This method is not intended for concatenating arbitrary selections,
   /// however: if both this selection and the specified *other* selection have

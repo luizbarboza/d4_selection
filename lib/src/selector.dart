@@ -11,7 +11,7 @@ Null _none(_, [__, ___, ____]) => null;
 ///
 /// This method is used internally by [*selection*.select][]. For example, this:
 ///
-/// [*selection*.select]: /d4_selection/SelectionSelect/select.html
+/// [*selection*.select]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelect/select.html
 ///
 /// ```dart
 /// final div = selection.select("div".u22);

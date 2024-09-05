@@ -46,7 +46,7 @@ extension SelectionDatum on Selection {
   /// Unlike [*selection*.dataBind][], this method does not compute a join and
   /// does not affect indexes or the enter and exit selections.
   ///
-  /// [*selection*.dataBind]: /d4_selection/SelectionData/dataBind.html
+  /// [*selection*.dataBind]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionData/dataBind.html
   Selection datumSet(Union2<EachCallback<JSAny?>, JSAny?>? value) {
     return propertySet("__data__", value);
   }

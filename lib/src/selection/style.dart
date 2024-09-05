@@ -100,7 +100,7 @@ extension SelectionStyle on Selection {
 /// [*selection*.styleGet][].
 ///
 /// [computed property value]: https://developer.mozilla.org/en-US/docs/Web/CSS/computed_value
-/// [*selection*.styleGet]: /d4_selection/SelectionStyle/styleGet.html
+/// [*selection*.styleGet]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionStyle/styleGet.html
 ///
 /// {@category Selecting elements}
 String? style(Element? node, String name) {

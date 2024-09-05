@@ -107,8 +107,8 @@ extension SelectionData on Selection {
   /// group. When data is assigned to an element, it is stored in the property
   /// `__data__`, thus making the data “sticky” and available on re-selection.
   ///
-  /// [enter]: /d4_selection/SelectionEnter/enter.html
-  /// [exit]: /d4_selection/SelectionExit/exit.html
+  /// [enter]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionEnter/enter.html
+  /// [exit]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionExit/exit.html
   ///
   /// The *data* is specified **for each group** in the selection. If the
   /// selection has multiple groups (such as [d4.selectAll][] followed by
@@ -118,8 +118,8 @@ extension SelectionData on Selection {
   /// (*i*), and the selection’s parent nodes (*nodes*), with *thisArg* as the
   /// group’s parent element.
   ///
-  /// [d4.selectAll]: /d4_selection/selectAll.html
-  /// [*selection*.selectAll]: /d4_selection/SelectionSelectAll/selectAll.html
+  /// [d4.selectAll]: https://pub.dev/documentation/d4_selection/latest/d4_selection/selectAll.html
+  /// [*selection*.selectAll]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSelectAll/selectAll.html
   ///
   /// In conjunction with [*selection*.joind][] (or more explicitly with
   /// [*selection*.enter][], [*selection*.exit][], [*selection*.append][] and
@@ -127,11 +127,11 @@ extension SelectionData on Selection {
   /// exit elements to match data. For example, to create an HTML table from a
   /// matrix of numbers:
   ///
-  /// [*selection*.joind]: /d4_selection/SelectionJoin/joind.html
-  /// [*selection*.enter]: /d4_selection/SelectionEnter/enter.html
-  /// [*selection*.exit]: /d4_selection/SelectionExit/exit.html
-  /// [*selection*.append]: /d4_selection/SelectionAppend/append.html
-  /// [*selection*.remove]: /d4_selection/SelectionRemove/remove.html
+  /// [*selection*.joind]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionJoin/joind.html
+  /// [*selection*.enter]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionEnter/enter.html
+  /// [*selection*.exit]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionExit/exit.html
+  /// [*selection*.append]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionAppend/append.html
+  /// [*selection*.remove]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionRemove/remove.html
   ///
   ///
   /// ```dart
@@ -222,15 +222,15 @@ extension SelectionData on Selection {
   /// [*selection*.sort][] as needed. For more on how the key function affects
   /// the join, see [A Bar Chart, Part 2][] and [Object Constancy][].
   ///
-  /// [*selection*.order]: /d4_selection/SelectionOrder/order.html
-  /// [*selection*.sort]: /d4_selection/SelectionSort/sort.html
+  /// [*selection*.order]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionOrder/order.html
+  /// [*selection*.sort]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSort/sort.html
   /// [A Bar Chart, Part 2]: https://observablehq.com/@d3/lets-make-a-bar-chart/2
   /// [Object Constancy]: http://bost.ocks.org/mike/constancy/
   ///
   /// This method cannot be used to clear bound data; use
   /// [*selection*.datumSet][] instead.
   ///
-  /// [*selection*.datumSet]: /d4_selection/SelectionDatum/datumSet.html
+  /// [*selection*.datumSet]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionDatum/datumSet.html
   Selection dataBind(
       Union2<EachCallback<Iterable<JSAny?>>, Iterable<JSAny?>> data,
       [String Function(

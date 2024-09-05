@@ -7,7 +7,7 @@ extension SelectionSort on Selection {
   /// re-inserts elements to match the resulting order (per
   /// [*selection*.order][]).
   ///
-  /// [*selection*.order]: /d4_selection/SelectionOrder/order.html
+  /// [*selection*.order]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionOrder/order.html
   ///
   /// The compare function, which defaults to [ascending][],
   /// is passed two elements’ data *a* and *b* to compare. It should return

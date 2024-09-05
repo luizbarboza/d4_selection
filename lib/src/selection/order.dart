@@ -8,7 +8,7 @@ extension SelectionOrder on Selection {
   /// This is equivalent to calling [*selection*.sort][] if the data is already
   /// sorted, but much faster.
   ///
-  /// [*selection*.sort]: /d4_selection/SelectionSort/sort.html
+  /// [*selection*.sort]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionSort/sort.html
   Selection order() {
     for (var groups = _groups, j = -1, m = groups.length; ++j < m;) {
       Element? node;

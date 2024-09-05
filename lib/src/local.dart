@@ -60,7 +60,7 @@ class Local {
   /// returns the specified *value*. This is often performed using
   /// [*selection*.each][]:
   ///
-  /// [*selection*.each]: /d4_selection/SelectionEach/each.html
+  /// [*selection*.each]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionEach/each.html
   ///
   /// ```dart
   /// selection.each((Element thisArg, JSAny? d, int i, List<Element?> nodes) {
@@ -71,7 +71,7 @@ class Local {
   /// If you are just setting a single variable, consider using
   /// [*selection*.propertySet][]:
   ///
-  /// [*selection*.propertySet]: /d4_selection/SelectionProperty/propertySet.html
+  /// [*selection*.propertySet]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionProperty/propertySet.html
   ///
   /// ```dart
   /// selection.propertySet(
@@ -98,7 +98,7 @@ class Local {
   /// unaffected, and thus [*local*.get][] will still return the inherited
   /// value.
   ///
-  /// [*local*.get]: /d4_selection/Local/get.html
+  /// [*local*.get]: https://pub.dev/documentation/d4_selection/latest/d4_selection/Local/get.html
   bool remove(Node node) {
     return (node as JSObject).delete(_.toJS).toDart;
   }
@@ -109,7 +109,7 @@ class Local {
   /// on elements, and thus you can also set or get the local’s value using
   /// *element*\[*local*.toString()\] or by using [*selection*.propertySet][].
   ///
-  /// [*selection*.propertySet]: /d4_selection/SelectionProperty/propertySet.html
+  /// [*selection*.propertySet]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionProperty/propertySet.html
   @override
   String toString() {
     return _;

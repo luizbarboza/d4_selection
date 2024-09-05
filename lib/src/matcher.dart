@@ -9,7 +9,7 @@ import 'package:web/web.dart';
 ///
 /// This method is used internally by [*selection*.filter][]. For example, this:
 ///
-/// [*selection*.filter]: /d4_selection/SelectionFilter/filter.html
+/// [*selection*.filter]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionFilter/filter.html
 ///
 /// ```dart
 /// final div = selection.filter("div".u22);

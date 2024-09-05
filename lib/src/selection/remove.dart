@@ -13,8 +13,8 @@ extension SelectionRemove on Selection {
   /// back to the document; however, you can pass a function to
   /// [*selection*.append][] or [*selection*.insert][] to re-add elements.
   ///
-  /// [*selection*.append]: /d4_selection/SelectionAppend/append.html
-  /// [*selection*.insert]: /d4_selection/SelectionInsert/insert.html
+  /// [*selection*.append]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionAppend/append.html
+  /// [*selection*.insert]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionInsert/insert.html
   Selection remove() {
     return each(_remove);
   }

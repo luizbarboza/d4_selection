@@ -6,7 +6,7 @@ extension SelectionEnter on Selection {
   /// corresponding DOM element in the selection. (The enter selection is empty
   /// for selections not returned by [*selection*.dataBind][].)
   ///
-  /// [*selection*.dataBind]: /d4_selection/SelectionData/dataBind.html
+  /// [*selection*.dataBind]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionData/dataBind.html
   ///
   /// The enter selection is typically used to create “missing” elements
   /// corresponding to new data. For example, to create DIV elements from an
@@ -43,7 +43,7 @@ extension SelectionEnter on Selection {
   /// [merged][] with the update selection after appending, such that
   /// modifications can be applied to both entering and updating elements.
   ///
-  /// [merged]: /d4_selection/SelectionMerge/merge.html
+  /// [merged]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionMerge/merge.html
   Selection enter() {
     return Selection._(
         _enter != null ? _enter! : _groups.map(sparse).toList(), _parents);

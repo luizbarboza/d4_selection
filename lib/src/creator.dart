@@ -29,8 +29,8 @@ Element Function(Element, [JSAny?, int?, List<Element?>?]) _creatorFixed(
 /// This method is used internally by [*selection*.append][] and
 /// [*selection*.insert][] to create new elements. For example, this:
 ///
-/// [*selection*.append]: /d4_selection/SelectionAppend/append.html
-/// [*selection*.insert]: /d4_selection/SelectionInsert/insert.html
+/// [*selection*.append]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionAppend/append.html
+/// [*selection*.insert]: https://pub.dev/documentation/d4_selection/latest/d4_selection/SelectionInsert/insert.html
 ///
 /// ```dart
 /// selection.append("div".u22);
@@ -45,7 +45,7 @@ Element Function(Element, [JSAny?, int?, List<Element?>?]) _creatorFixed(
 /// See [namespace][] for details on supported namespace prefixes, such as for
 /// SVG elements.
 ///
-/// [namespace]: /d4_selection/namespace.html
+/// [namespace]: https://pub.dev/documentation/d4_selection/latest/d4_selection/namespace.html
 ///
 /// {@category Modifying elements}
 Element Function(Element, [JSAny?, int?, List<Element?>?]) creator(
